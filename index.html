@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Эвакуатор в Дмитрове — помощь на дороге 24/7</title>
+    <meta
+      name="description"
+      content="Эвакуатор в Дмитрове и районе 24/7: эвакуация авто, техпомощь, подвоз топлива, трезвый водитель. Подача 20–40 минут. Наличные и карта."
+    />
+    <!-- FAVICONS -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+
+    <meta name="theme-color" content="#f4b000" />
+    <meta name="msapplication-TileColor" content="#f4b000" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Skip link -->
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <!-- Header -->
+    <header class="site-header" data-header>
+      <div class="container header__row">
+        <a class="brand" href="/" aria-label="Главная">
+          <span class="brand__logo" aria-hidden="true">🚚</span>
+          <span class="brand__text">
+            <strong>ЭВАКУАТОР 24</strong>
+            <small>Дмитров и район</small>
+          </span>
+        </a>
+
+        <div class="header__actions">
+          <a class="phone" href="tel:+74952041652" aria-label="Позвонить">
+            <span class="phone__icon" aria-hidden="true">📞</span>
+            <span class="phone__text">
+              <small>Круглосуточно</small>
+              <strong>+7 (495) 204-16-52</strong>
+            </span>
+          </a>
+
+          <button
+            class="btn btn--ghost icon-btn"
+            type="button"
+            data-menu-open
+            aria-label="Открыть меню"
+          >
+            ☰
+          </button>
+
+          <a class="btn btn--primary" href="tel:+74952041652">Вызвать</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Offcanvas menu + overlay -->
+    <div class="overlay" data-overlay hidden></div>
+
+    <aside class="offcanvas" data-menu hidden aria-hidden="true">
+      <div class="offcanvas__head">
+        <div class="offcanvas__title">Меню</div>
+        <button
+          class="icon-btn"
+          type="button"
+          data-menu-close
+          aria-label="Закрыть меню"
+        >
+          ✕
+        </button>
+      </div>
+
+      <nav class="offcanvas__nav" aria-label="Основная навигация">
+        <!-- ВАЖНО: сохраняем пункты меню и URL -->
+        <a href="/" class="navlink is-active">Главная</a>
+        <a href="/ceny/" class="navlink">Цены</a>
+        <a href="/kruglosutochno/" class="navlink">Круглосуточно</a>
+        <a href="/shosse/" class="navlink">Шоссе</a>
+        <a href="/kontakty/" class="navlink">Контакты</a>
+      </nav>
+
+      <div class="offcanvas__cta">
+        <a class="btn btn--primary btn--block" href="tel:+74952041652"
+          >Позвонить сейчас</a
+        >
+
+        <div class="messengers">
+          <a
+            class="btn btn--ghost btn--block"
+            href="#"
+            aria-label="Написать в WhatsApp (поставишь ссылку)"
+          >
+            🟢 WhatsApp
+          </a>
+          <a
+            class="btn btn--ghost btn--block"
+            href="#"
+            aria-label="Написать в Telegram (поставишь ссылку)"
+          >
+            🔵 Telegram
+          </a>
+        </div>
+
+        <p class="offcanvas__note">
+          Подача по Дмитрову и району: <strong>20–40 минут</strong>.
+        </p>
+      </div>
+    </aside>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__left">
+            <p class="badge">24/7 • Дмитров и район</p>
+            <h1 class="hero__title">
+              Эвакуатор в Дмитрове — помощь на дороге 24/7
+            </h1>
+            <p class="hero__subtitle">
+              Эвакуация авто, <strong>техпомощь</strong>,
+              <strong>подвоз топлива</strong>,
+              <strong>трезвый водитель</strong>. Приедем за
+              <strong>20–40 минут</strong>.
+            </p>
+
+            <div class="hero__facts">
+              <div class="fact">
+                <span class="fact__icon" aria-hidden="true">⏱</span>
+                <div class="fact__text">
+                  <strong>20–40 мин</strong><small>подача</small>
+                </div>
+              </div>
+              <div class="fact">
+                <span class="fact__icon" aria-hidden="true">💳</span>
+                <div class="fact__text">
+                  <strong>Нал / карта</strong><small>оплата</small>
+                </div>
+              </div>
+              <div class="fact">
+                <span class="fact__icon" aria-hidden="true">🚚</span>
+                <div class="fact__text">
+                  <strong>Автопарк</strong><small>лебёдка/платформа</small>
+                </div>
+              </div>
+              <div class="fact">
+                <span class="fact__icon" aria-hidden="true">📍</span>
+                <div class="fact__text">
+                  <strong>Дмитров</strong><small>и область</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__buttons">
+              <button class="btn btn--ghost" type="button" data-open-calc>
+                Рассчитать стоимость
+              </button>
+              <a class="btn btn--primary" href="tel:+74952041652">Позвонить</a>
+            </div>
+          </div>
+
+          <!-- Quick calc card -->
+          <div class="hero__right">
+            <div class="card card--glass">
+              <h2 class="card__title">Быстрый расчёт</h2>
+              <p class="card__desc">
+                Выберите услугу — покажем ориентир по цене и времени.
+              </p>
+
+              <form class="calc" data-calc-form>
+                <label class="field">
+                  <span class="field__label">Что нужно?</span>
+                  <select class="field__control" name="service" required>
+                    <option value="tow">Эвакуатор</option>
+                    <option value="tech">Техпомощь</option>
+                    <option value="fuel">Подвоз топлива</option>
+                    <option value="sober">Трезвый водитель</option>
+                  </select>
+                </label>
+
+                <div class="grid-2">
+                  <label class="field">
+                    <span class="field__label">Тип авто</span>
+                    <select class="field__control" name="vehicle">
+                      <option value="light">Легковое</option>
+                      <option value="suv">Внедорожник</option>
+                      <option value="moto">Мото</option>
+                      <option value="other">Другое/спец</option>
+                    </select>
+                  </label>
+
+                  <label class="field">
+                    <span class="field__label">Ситуация</span>
+                    <select class="field__control" name="case">
+                      <option value="normal">Обычная эвакуация</option>
+                      <option value="wheels">Заблокированы колёса</option>
+                      <option value="ditch">Кювет/ДТП</option>
+                      <option value="no-fuel">Закончился бензин</option>
+                      <option value="battery">Сел аккумулятор</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="field">
+                  <span class="field__label">Где вы?</span>
+                  <input
+                    class="field__control"
+                    name="where"
+                    type="text"
+                    placeholder="Напр.: Дмитров, Дмитровское шоссе"
+                    autocomplete="street-address"
+                  />
+                </label>
+
+                <div class="calc__result" aria-live="polite" data-calc-result>
+                  <div class="calc__price">От <strong>1500 ₽</strong></div>
+                  <div class="calc__eta">
+                    Подача: <strong>20–40 минут</strong>
+                  </div>
+                </div>
+
+                <div class="calc__actions">
+                  <button class="btn btn--primary btn--block" type="submit">
+                    Показать расчёт
+                  </button>
+                  <a class="btn btn--ghost btn--block" href="tel:+74952041652"
+                    >Вызвать по телефону</a
+                  >
+                </div>
+
+                <p class="hint">
+                  * Расчёт ориентировочный. Точную цену скажем по телефону.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Помощь на дороге в Дмитрове</h2>
+            <p class="section__subtitle">
+              Выберите сценарий — мы подскажем решение и отправим ближайшую
+              машину.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="svc">
+              <div class="svc__icon" aria-hidden="true">🚚</div>
+              <h3 class="svc__title">Эвакуатор</h3>
+              <p class="svc__text">
+                Поломка, ДТП, заблокированные колёса, кювет, перевозка авто.
+              </p>
+              <button
+                class="link"
+                type="button"
+                data-open-calc
+                data-service="tow"
+              >
+                Рассчитать →
+              </button>
+            </article>
+
+            <article class="svc">
+              <div class="svc__icon" aria-hidden="true">🔧</div>
+              <h3 class="svc__title">Техпомощь</h3>
+              <p class="svc__text">
+                Прикурить, замена колеса, мелкая помощь на месте.
+              </p>
+              <button
+                class="link"
+                type="button"
+                data-open-calc
+                data-service="tech"
+              >
+                Оценить →
+              </button>
+            </article>
+
+            <article class="svc">
+              <div class="svc__icon" aria-hidden="true">⛽</div>
+              <h3 class="svc__title">Подвоз топлива</h3>
+              <p class="svc__text">
+                Бензин/дизель, поможем быстро добраться до заправки.
+              </p>
+              <button
+                class="link"
+                type="button"
+                data-open-calc
+                data-service="fuel"
+              >
+                Заказать →
+              </button>
+            </article>
+
+            <article class="svc">
+              <div class="svc__icon" aria-hidden="true">🚗</div>
+              <h3 class="svc__title">Трезвый водитель</h3>
+              <p class="svc__text">
+                Доставим вас и авто домой. Удобно ночью и после мероприятий.
+              </p>
+              <button
+                class="link"
+                type="button"
+                data-open-calc
+                data-service="sober"
+              >
+                Уточнить →
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Как мы работаем</h2>
+            <p class="section__subtitle">
+              Коротко и по делу — без лишних шагов.
+            </p>
+          </div>
+
+          <ol class="steps">
+            <li class="step">
+              <div class="step__num">1</div>
+              <div class="step__body">
+                <h3>Заявка</h3>
+                <p>Звонок или форма: где вы, что случилось, куда доставить.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">2</div>
+              <div class="step__body">
+                <h3>Подтверждение</h3>
+                <p>Оператор уточняет детали и озвучивает ориентир по цене.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">3</div>
+              <div class="step__body">
+                <h3>Выезд</h3>
+                <p>
+                  Отправляем ближайшую машину. Ориентир подачи: 20–40 минут.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">4</div>
+              <div class="step__body">
+                <h3>Доставка</h3>
+                <p>Бережно загружаем и доставляем авто по адресу.</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="cta cta--inline">
+            <div>
+              <h3 class="cta__title">Нужна помощь прямо сейчас?</h3>
+              <p class="cta__text">
+                Мы на связи 24/7. Оставьте номер — перезвоним.
+              </p>
+            </div>
+            <div class="cta__actions">
+              <a class="btn btn--primary btn--call" href="tel:+74952041652"
+                >Позвонить</a
+              >
+              <button class="btn btn--ghost" type="button" data-open-lead>
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ETA TABLE -->
+      <section class="section" id="eta">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Время прибытия эвакуатора</h2>
+            <p class="section__subtitle">
+              Ориентировочно. Фактическое время зависит от трафика и погоды.
+            </p>
+          </div>
+
+          <div class="table-wrap">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Населённый пункт</th>
+                  <th>Расстояние от Дмитрова</th>
+                  <th>Время в пути</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Яхрома</td>
+                  <td>8 км</td>
+                  <td>15 мин</td>
+                </tr>
+                <tr>
+                  <td>Новосиньково</td>
+                  <td>15 км</td>
+                  <td>21 мин</td>
+                </tr>
+                <tr>
+                  <td>Подосинки</td>
+                  <td>20 км</td>
+                  <td>29 мин</td>
+                </tr>
+                <tr>
+                  <td>Рогачёво</td>
+                  <td>25 км</td>
+                  <td>37 мин</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="hint">
+            * Таблица представлена в качестве примера сроков прибытия. Эвакуатор
+            выезжает в течение 2х минут после звонка
+          </p>
+        </div>
+      </section>
+
+      <!-- FLEET (simple slider) -->
+      <section class="section section--alt" id="fleet">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Техника и возможности</h2>
+            <p class="section__subtitle">
+              Подбираем технику под ситуацию: платформа, лебёдка, манипулятор.
+            </p>
+          </div>
+
+          <div class="slider" aria-label="Слайдер автопарка">
+            <div class="slide">
+              <img
+                class="slide__img"
+                src="assets/img/foto1.webp"
+                alt="Эвакуатор с платформой в Дмитрове"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="slide__cap">
+                <strong>Платформа</strong> — стандартная эвакуация
+              </div>
+            </div>
+
+            <div class="slide">
+              <img
+                class="slide__img"
+                src="assets/img/foto2.webp"
+                alt="Эвакуатор с лебёдкой для сложной погрузки"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="slide__cap">
+                <strong>Лебёдка</strong> — сложная погрузка
+              </div>
+            </div>
+
+            <div class="slide">
+              <img
+                class="slide__img"
+                src="assets/img/foto3.webp"
+                alt="Эвакуатор-манипулятор для спецслучаев"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="slide__cap">
+                <strong>Манипулятор</strong> — спецслучаи
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRIMARY CTA -->
+      <section class="section">
+        <div class="container">
+          <div class="cta">
+            <div class="cta__left">
+              <h2 class="cta__title">Нужен эвакуатор в Дмитрове?</h2>
+              <p class="cta__text">
+                Работаем круглосуточно. Быстро приедем и решим задачу.
+              </p>
+            </div>
+            <div class="cta__actions">
+              <a class="btn btn--primary" href="tel:+74952041652"
+                >Вызвать эвакуатор</a
+              >
+              <a class="btn btn--ghost" href="/ceny/">Посмотреть цены</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEO LAYER -->
+      <section class="section seo" id="seo">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Полезная информация</h2>
+            <p class="section__subtitle">
+              Этот блок сохраняет смысл и семантику старой страницы, но подаётся
+              аккуратно — через раскрывающиеся секции.
+            </p>
+          </div>
+
+          <div class="accordion" data-accordion>
+            <details class="acc" open>
+              <summary class="acc__sum">
+                Эвакуатор в Дмитрове — когда нужен
+              </summary>
+              <div class="acc__body">
+                <p>
+                  В дороге никто не застрахован от поломки, ДТП или ситуации,
+                  когда продолжать движение невозможно. Мы оперативно направим
+                  эвакуатор по Дмитрову и району, подберём технику под задачу и
+                  аккуратно доставим автомобиль по адресу.
+                </p>
+                <ul>
+                  <li>Поломка и невозможность движения</li>
+                  <li>ДТП / кювет</li>
+                  <li>Заблокированные колёса / проблемы с КПП</li>
+                  <li>Перевозка авто до сервиса/дома</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="acc">
+              <summary class="acc__sum">
+                От чего зависит стоимость эвакуации
+              </summary>
+              <div class="acc__body">
+                <p>
+                  Цена зависит от типа авто, сложности погрузки, расстояния и
+                  времени суток. Точную стоимость оператор назовёт после
+                  уточнения ситуации.
+                </p>
+                <ul>
+                  <li>Масса и габариты транспортного средства</li>
+                  <li>
+                    Состояние авто (можно ли катить, заблокированы ли колёса)
+                  </li>
+                  <li>Расстояние до места назначения</li>
+                  <li>Ночной вызов / ожидание</li>
+                </ul>
+                <p>
+                  Подробный прайс доступен на странице
+                  <a href="/ceny/">Цены</a>.
+                </p>
+              </div>
+            </details>
+
+            <details class="acc">
+              <summary class="acc__sum">Работаем круглосуточно</summary>
+              <div class="acc__body">
+                <p>
+                  Мы выезжаем 24/7, включая выходные и праздничные дни. Если
+                  ситуация случилась ночью — просто позвоните, мы примем заявку
+                  и направим машину.
+                </p>
+                <p>
+                  Подробнее: <a href="/kruglosutochno/">Эвакуатор 24 часа</a>.
+                </p>
+              </div>
+            </details>
+
+            <details class="acc">
+              <summary class="acc__sum">Дмитровское шоссе и район</summary>
+              <div class="acc__body">
+                <p>
+                  Оказываем помощь на Дмитровском шоссе и в населённых пунктах
+                  района. Время прибытия зависит от расстояния, трафика и
+                  погоды.
+                </p>
+                <p>
+                  Подробнее:
+                  <a href="/shosse/">Эвакуатор на Дмитровском шоссе</a>.
+                </p>
+              </div>
+            </details>
+          </div>
+
+          <div class="seo__prices">
+            <button
+              class="btn btn--ghost"
+              type="button"
+              data-toggle-prices
+              aria-expanded="false"
+            >
+              Показать таблицу цен на главной
+            </button>
+
+            <div class="prices" data-prices hidden>
+              <h3>Стоимость эвакуации (кратко)</h3>
+              <div class="table-wrap">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Категория</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>ТС до 1 тонны</td>
+                      <td>от 1500 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>ТС 1–1.5 т</td>
+                      <td>от 1500 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>ТС 1.5–2.5 т</td>
+                      <td>от 1500 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>ТС 2.5–3.5 т</td>
+                      <td>от 1500 ₽</td>
+                    </tr>
+                    <tr>
+                      <td>ТС 3.5–5 т</td>
+                      <td>от 1600 ₽</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="hint">
+                Полный прайс: <a href="/ceny/">на странице “Цены”</a>.
+              </p>
+            </div>
+          </div>
+
+          <div class="seo__links">
+            <h3>Полезные страницы</h3>
+            <div class="chips">
+              <a class="chip" href="/ceny/">Цены</a>
+              <a class="chip" href="/kruglosutochno/">Круглосуточно</a>
+              <a class="chip" href="/shosse/">Дмитровское шоссе</a>
+              <a class="chip" href="/kontakty/">Контакты</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section class="section section--alt" id="contacts">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Контакты</h2>
+            <p class="section__subtitle">
+              Звоните или оставьте заявку — перезвоним в ближайшее время.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="card">
+              <h3 class="card__title">Связаться</h3>
+              <div class="contact-item">
+                <span aria-hidden="true">📞</span>
+                <div>
+                  <div class="muted">Телефон</div>
+                  <a href="tel:+74952041652"
+                    ><strong>+7 (495) 204-16-52</strong></a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <span aria-hidden="true">📍</span>
+                <div>
+                  <div class="muted">Адрес</div>
+                  <strong>г. Дмитров, ул. В.А. Новосёлова, 24</strong>
+                </div>
+              </div>
+
+              <div class="messengers">
+                <a class="btn btn--ghost btn--block" href="#">🟢 WhatsApp</a>
+                <a class="btn btn--ghost btn--block" href="#">🔵 Telegram</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">Оставить заявку</h3>
+              <form class="lead" data-lead-form>
+                <label class="field">
+                  <span class="field__label">Имя</span>
+                  <input
+                    class="field__control"
+                    type="text"
+                    name="name"
+                    placeholder="Ваше имя"
+                  />
+                </label>
+                <label class="field">
+                  <span class="field__label">Телефон</span>
+                  <input
+                    class="field__control"
+                    type="tel"
+                    name="phone"
+                    placeholder="+7 ___ ___-__-__"
+                    required
+                  />
+                </label>
+                <label class="field">
+                  <span class="field__label">Комментарий (необязательно)</span>
+                  <input
+                    class="field__control"
+                    type="text"
+                    name="msg"
+                    placeholder="Где вы и что случилось"
+                  />
+                </label>
+
+                <button class="btn btn--primary btn--block" type="submit">
+                  Отправить
+                </button>
+                <p class="hint">* Пока просто демо-форма.</p>
+              </form>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title">Карта</h3>
+              <div class="map">
+                <div class="map__stub">
+                  Здесь будет карта (iframe Google/Яндекс)
+                </div>
+              </div>
+              <p class="hint">
+                * На проде лучше грузить карту по клику (“Показать карту”),
+                чтобы сайт был лёгкий.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__grid">
+          <div>
+            <div class="brand brand--footer">
+              <span class="brand__logo" aria-hidden="true">🚚</span>
+              <span class="brand__text">
+                <strong>ЭВАКУАТОР 24</strong>
+                <small>Дмитров и район</small>
+              </span>
+            </div>
+            <p class="muted">© 2015–2026 Эвакуатор в Дмитрове</p>
+            <p class="footer-dev">
+              Разработка:
+              <a href="https://t.me/aamineev" target="_blank" rel="noopener">
+                @aamineev
+              </a>
+            </p>
+          </div>
+
+          <div class="footer__links">
+            <a href="/ceny/">Цены</a>
+            <a href="/kruglosutochno/">Круглосуточно</a>
+            <a href="/shosse/">Шоссе</a>
+            <a href="/kontakty/">Контакты</a>
+          </div>
+
+          <div class="footer__cta">
+            <a class="btn btn--primary btn--block" href="tel:+74952041652"
+              >Вызвать</a
+            >
+            <a class="btn btn--ghost btn--block" href="#services">Услуги</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Modal: lead -->
+    <div
+      class="modal"
+      data-modal="lead"
+      hidden
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Оставить заявку"
+    >
+      <div class="modal__panel">
+        <div class="modal__head">
+          <strong>Оставить заявку</strong>
+          <button
+            class="icon-btn"
+            type="button"
+            data-modal-close
+            aria-label="Закрыть"
+          >
+            ✕
+          </button>
+        </div>
+        <form class="lead" data-lead-form>
+          <label class="field">
+            <span class="field__label">Имя</span>
+            <input
+              class="field__control"
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+            />
+          </label>
+          <label class="field">
+            <span class="field__label">Телефон</span>
+            <input
+              class="field__control"
+              type="tel"
+              name="phone"
+              placeholder="+7 ___ ___-__-__"
+              required
+            />
+          </label>
+          <label class="field">
+            <span class="field__label">Комментарий</span>
+            <input
+              class="field__control"
+              type="text"
+              name="msg"
+              placeholder="Где вы и что случилось"
+            />
+          </label>
+          <button class="btn btn--primary btn--block" type="submit">
+            Отправить
+          </button>
+          <p class="hint">* Демо. В WP подключишь отправку.</p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal: calc (optional: same as quick card, but can be expanded later) -->
+    <div
+      class="modal"
+      data-modal="calc"
+      hidden
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Рассчитать стоимость"
+    >
+      <div class="modal__panel">
+        <div class="modal__head">
+          <strong>Рассчитать стоимость</strong>
+          <button
+            class="icon-btn"
+            type="button"
+            data-modal-close
+            aria-label="Закрыть"
+          >
+            ✕
+          </button>
+        </div>
+
+        <form class="calc" data-calc-form>
+          <label class="field">
+            <span class="field__label">Что нужно?</span>
+            <select class="field__control" name="service" required>
+              <option value="tow">Эвакуатор</option>
+              <option value="tech">Техпомощь</option>
+              <option value="fuel">Подвоз топлива</option>
+              <option value="sober">Трезвый водитель</option>
+            </select>
+          </label>
+
+          <div class="grid-2">
+            <label class="field">
+              <span class="field__label">Тип авто</span>
+              <select class="field__control" name="vehicle">
+                <option value="light">Легковое</option>
+                <option value="suv">Внедорожник</option>
+                <option value="moto">Мото</option>
+                <option value="other">Другое/спец</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Ситуация</span>
+              <select class="field__control" name="case">
+                <option value="normal">Обычная</option>
+                <option value="wheels">Заблокированы колёса</option>
+                <option value="ditch">Кювет/ДТП</option>
+                <option value="no-fuel">Нет топлива</option>
+                <option value="battery">Сел аккумулятор</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Где вы?</span>
+            <input
+              class="field__control"
+              name="where"
+              type="text"
+              placeholder="Напр.: Дмитров, Дмитровское шоссе"
+            />
+          </label>
+
+          <div class="calc__result" aria-live="polite" data-calc-result>
+            <div class="calc__price">От <strong>1500 ₽</strong></div>
+            <div class="calc__eta">Подача: <strong>20–40 минут</strong></div>
+          </div>
+
+          <div class="calc__actions">
+            <button class="btn btn--primary btn--block" type="submit">
+              Показать расчёт
+            </button>
+            <a class="btn btn--ghost btn--block" href="tel:+74952041652"
+              >Вызвать по телефону</a
+            >
+          </div>
+
+          <p class="hint">
+            * Расчёт ориентировочный. Точную цену скажем по телефону.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
